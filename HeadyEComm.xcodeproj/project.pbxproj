@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EFBF48F3C5CA4EC13E05B8E /* Pods_HeadyECommTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704EACAD32346C10FEAACDBD /* Pods_HeadyECommTests.framework */; };
 		8C49D1092439EA5300294355 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C49D1082439EA5300294355 /* AppDelegate.swift */; };
 		8C49D10B2439EA5300294355 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C49D10A2439EA5300294355 /* SceneDelegate.swift */; };
 		8C49D10D2439EA5300294355 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C49D10C2439EA5300294355 /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		8C49D1152439EA5700294355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C49D1132439EA5700294355 /* LaunchScreen.storyboard */; };
 		8C49D1202439EA5700294355 /* HeadyECommTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C49D11F2439EA5700294355 /* HeadyECommTests.swift */; };
 		8C49D12B2439EA5800294355 /* HeadyECommUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C49D12A2439EA5800294355 /* HeadyECommUITests.swift */; };
+		E5BF48B7E801631D72D62FB6 /* Pods_HeadyEComm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCCB6BFA7B2D75575ED5BE2 /* Pods_HeadyEComm.framework */; };
+		FD5D566EFA92E55F0D040FD8 /* Pods_HeadyEComm_HeadyECommUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8327E45BF9AEE73395A2175D /* Pods_HeadyEComm_HeadyECommUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33C0729CE108DCDFB29EFAF5 /* Pods-HeadyEComm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadyEComm.debug.xcconfig"; path = "Target Support Files/Pods-HeadyEComm/Pods-HeadyEComm.debug.xcconfig"; sourceTree = "<group>"; };
+		3BD5FC305E3A133216A37396 /* Pods-HeadyECommTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadyECommTests.debug.xcconfig"; path = "Target Support Files/Pods-HeadyECommTests/Pods-HeadyECommTests.debug.xcconfig"; sourceTree = "<group>"; };
+		460BC2C2671107BAF891BBFA /* Pods-HeadyEComm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadyEComm.release.xcconfig"; path = "Target Support Files/Pods-HeadyEComm/Pods-HeadyEComm.release.xcconfig"; sourceTree = "<group>"; };
+		5DCCB6BFA7B2D75575ED5BE2 /* Pods_HeadyEComm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeadyEComm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		704EACAD32346C10FEAACDBD /* Pods_HeadyECommTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeadyECommTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8327E45BF9AEE73395A2175D /* Pods_HeadyEComm_HeadyECommUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeadyEComm_HeadyECommUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C49D1052439EA5300294355 /* HeadyEComm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadyEComm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C49D1082439EA5300294355 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C49D10A2439EA5300294355 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		8C49D1262439EA5800294355 /* HeadyECommUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadyECommUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C49D12A2439EA5800294355 /* HeadyECommUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadyECommUITests.swift; sourceTree = "<group>"; };
 		8C49D12C2439EA5800294355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EDD5FAF3CBDB812491A89D2 /* Pods-HeadyEComm-HeadyECommUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadyEComm-HeadyECommUITests.debug.xcconfig"; path = "Target Support Files/Pods-HeadyEComm-HeadyECommUITests/Pods-HeadyEComm-HeadyECommUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B941CBCDEA3AE1FC1F2C016E /* Pods-HeadyECommTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadyECommTests.release.xcconfig"; path = "Target Support Files/Pods-HeadyECommTests/Pods-HeadyECommTests.release.xcconfig"; sourceTree = "<group>"; };
+		D091B493F912C40FE3426E03 /* Pods-HeadyEComm-HeadyECommUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadyEComm-HeadyECommUITests.release.xcconfig"; path = "Target Support Files/Pods-HeadyEComm-HeadyECommUITests/Pods-HeadyEComm-HeadyECommUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5BF48B7E801631D72D62FB6 /* Pods_HeadyEComm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EFBF48F3C5CA4EC13E05B8E /* Pods_HeadyECommTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD5D566EFA92E55F0D040FD8 /* Pods_HeadyEComm_HeadyECommUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		438601B15B6CBDDBD37C275B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DCCB6BFA7B2D75575ED5BE2 /* Pods_HeadyEComm.framework */,
+				8327E45BF9AEE73395A2175D /* Pods_HeadyEComm_HeadyECommUITests.framework */,
+				704EACAD32346C10FEAACDBD /* Pods_HeadyECommTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D754118C6BF18EF470E8B73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33C0729CE108DCDFB29EFAF5 /* Pods-HeadyEComm.debug.xcconfig */,
+				460BC2C2671107BAF891BBFA /* Pods-HeadyEComm.release.xcconfig */,
+				9EDD5FAF3CBDB812491A89D2 /* Pods-HeadyEComm-HeadyECommUITests.debug.xcconfig */,
+				D091B493F912C40FE3426E03 /* Pods-HeadyEComm-HeadyECommUITests.release.xcconfig */,
+				3BD5FC305E3A133216A37396 /* Pods-HeadyECommTests.debug.xcconfig */,
+				B941CBCDEA3AE1FC1F2C016E /* Pods-HeadyECommTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8C49D0FC2439EA5300294355 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				8C49D11E2439EA5700294355 /* HeadyECommTests */,
 				8C49D1292439EA5800294355 /* HeadyECommUITests */,
 				8C49D1062439EA5300294355 /* Products */,
+				5D754118C6BF18EF470E8B73 /* Pods */,
+				438601B15B6CBDDBD37C275B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C49D12F2439EA5800294355 /* Build configuration list for PBXNativeTarget "HeadyEComm" */;
 			buildPhases = (
+				A34A39037F49AE71B5D20F39 /* [CP] Check Pods Manifest.lock */,
 				8C49D1012439EA5300294355 /* Sources */,
 				8C49D1022439EA5300294355 /* Frameworks */,
 				8C49D1032439EA5300294355 /* Resources */,
+				37473AD5BB2453BC42F841A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C49D1322439EA5800294355 /* Build configuration list for PBXNativeTarget "HeadyECommTests" */;
 			buildPhases = (
+				A2F2CE6A41DE9C8AF6A5065C /* [CP] Check Pods Manifest.lock */,
 				8C49D1172439EA5700294355 /* Sources */,
 				8C49D1182439EA5700294355 /* Frameworks */,
 				8C49D1192439EA5700294355 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C49D1352439EA5800294355 /* Build configuration list for PBXNativeTarget "HeadyECommUITests" */;
 			buildPhases = (
+				9762F15011526F373EB0B68B /* [CP] Check Pods Manifest.lock */,
 				8C49D1222439EA5800294355 /* Sources */,
 				8C49D1232439EA5800294355 /* Frameworks */,
 				8C49D1242439EA5800294355 /* Resources */,
+				4D96F8D4BEFBC09D17B56DB3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37473AD5BB2453BC42F841A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeadyEComm/Pods-HeadyEComm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeadyEComm/Pods-HeadyEComm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeadyEComm/Pods-HeadyEComm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D96F8D4BEFBC09D17B56DB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeadyEComm-HeadyECommUITests/Pods-HeadyEComm-HeadyECommUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeadyEComm-HeadyECommUITests/Pods-HeadyEComm-HeadyECommUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeadyEComm-HeadyECommUITests/Pods-HeadyEComm-HeadyECommUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9762F15011526F373EB0B68B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeadyEComm-HeadyECommUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2F2CE6A41DE9C8AF6A5065C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeadyECommTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A34A39037F49AE71B5D20F39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeadyEComm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8C49D1012439EA5300294355 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		8C49D1302439EA5800294355 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33C0729CE108DCDFB29EFAF5 /* Pods-HeadyEComm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +600,7 @@
 		};
 		8C49D1312439EA5800294355 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 460BC2C2671107BAF891BBFA /* Pods-HeadyEComm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +619,7 @@
 		};
 		8C49D1332439EA5800294355 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BD5FC305E3A133216A37396 /* Pods-HeadyECommTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +642,7 @@
 		};
 		8C49D1342439EA5800294355 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B941CBCDEA3AE1FC1F2C016E /* Pods-HeadyECommTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +665,7 @@
 		};
 		8C49D1362439EA5800294355 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EDD5FAF3CBDB812491A89D2 /* Pods-HeadyEComm-HeadyECommUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +686,7 @@
 		};
 		8C49D1372439EA5800294355 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D091B493F912C40FE3426E03 /* Pods-HeadyEComm-HeadyECommUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

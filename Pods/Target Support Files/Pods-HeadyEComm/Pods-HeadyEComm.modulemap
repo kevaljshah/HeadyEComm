@@ -1,0 +1,6 @@
+framework module Pods_HeadyEComm {
+  umbrella header "Pods-HeadyEComm-umbrella.h"
+
+  export *
+  module * { export * }
+}
