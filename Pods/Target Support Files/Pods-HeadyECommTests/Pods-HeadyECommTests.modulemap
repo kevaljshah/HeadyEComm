@@ -1,6 +1,0 @@
-framework module Pods_HeadyECommTests {
-  umbrella header "Pods-HeadyECommTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
