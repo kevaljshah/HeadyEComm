@@ -12,8 +12,8 @@ import RealmSwift
 @objcMembers class Variant: Object, Decodable {
     dynamic var id: Int = 0
     dynamic var color = ""
-    dynamic var size: Int? = nil
-    dynamic var price: Int? = nil
+    dynamic var size = RealmOptional<Int>()
+    dynamic var price = RealmOptional<Int>()
     
     enum CodingKeys: String, CodingKey {
         case id
@@ -28,14 +28,15 @@ import RealmSwift
         
         id = try container.decode(Int.self, forKey: .id)
         color = try container.decode(String.self, forKey: .color)
-        if let sizeValue = try container.decode(Int?.self, forKey: .size) {
-            size = sizeValue
-        }
-        if let priceValue = try container.decode(Int?.self, forKey: .price) {
-            price = priceValue
-        }
+        size = try container.decode(RealmOptional<Int>.self, forKey: .size)
+        price = try container.decode(RealmOptional<Int>.self, forKey: .price)
         
         super.init()
+    }
+    
+    override class func primaryKey() -> String?
+    {
+        return "id"
     }
     
     required init()

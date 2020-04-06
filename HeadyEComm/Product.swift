@@ -53,9 +53,9 @@ import RealmSwift
 
 @objcMembers class RankingProduct: Object, Decodable {
     dynamic var id: Int = 0
-    dynamic var view_count: Int? = 0
-    dynamic var order_count: Int? = 0
-    dynamic var shares: Int? = 0
+    dynamic var view_count = RealmOptional<Int>()
+    dynamic var order_count = RealmOptional<Int>()
+    dynamic var shares = RealmOptional<Int>()
     
     enum CodingKeys: String, CodingKey {
         case id
@@ -70,20 +70,16 @@ import RealmSwift
         
         id = try container.decode(Int.self, forKey: .id)
         if container.contains(.view_count) {
-            view_count = try container.decode(Int?.self, forKey: .view_count)
+            view_count = try container.decode(RealmOptional<Int>.self, forKey: .view_count)
         }
         if container.contains(.order_count) {
-            order_count = try container.decode(Int?.self, forKey: .order_count)
+            order_count = try container.decode(RealmOptional<Int>.self, forKey: .order_count)
         }
         if container.contains(.shares) {
-            shares = try container.decode(Int?.self, forKey: .shares)
+            shares = try container.decode(RealmOptional<Int>.self, forKey: .shares)
         }
         
         super.init()
-    }
-    
-    override class func primaryKey() -> String? {
-        return "id"
     }
     
     required init()

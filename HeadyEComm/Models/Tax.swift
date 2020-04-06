@@ -28,6 +28,11 @@ import RealmSwift
         super.init()
     }
     
+    override class func primaryKey() -> String?
+    {
+        return "name"
+    }
+    
     required init()
     {
         super.init()
